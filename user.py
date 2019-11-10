@@ -12,4 +12,17 @@ class User:
 
     '''
     Class to create new accounts.
-    '''    
+    '''
+    def save_user(self):
+        '''
+        Function to save user account details
+        '''
+        User.users_list.append(self)
+
+# class Credential:
+# 	'''
+# 	Class to create  account credentials, generate passwords and save their information
+# 	'''
+# 	# Class Variables
+# 	credentials_list =[]
+# 	user_credentials_list = []          
