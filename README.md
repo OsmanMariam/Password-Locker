@@ -15,3 +15,9 @@ The user can be able to:
 * Create a external accounts for other sites.
 * Generate a password or input a preferred password.
 * Delete an existing account.
+
+## Running the Application
+* To run the application, in your terminal run:
+
+    $ chmod +x main.py
+    $ ./main.py
