@@ -66,7 +66,7 @@ class TestDetails(unittest.TestCase):
         Test to check if the new account inputted is saved into the accounts list
         '''
         self.new_account.save_account()
-		Instagram = Account('Mariam', 'Instagram', 'mariri', '6969')
+		Instagram = Account('Mariam','Instagram','mariri','6969')
 		Instagram.save_account()
 
     def tearDown(self):
