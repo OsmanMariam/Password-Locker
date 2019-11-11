@@ -79,15 +79,7 @@ class TestDetails(unittest.TestCase):
 
 
 
-	def test_search_account(self):
-		'''
-		Test to check if the method returns the correct account
-		'''
-		self.new_account.save_account()
-		Instagram = Account('Mariam','Instagram','mariri','6969')
-		Instagram.save_account()
-		account_exists = Account.search_account('Instagram')
-		self.assertEqual(search_account,Instagram)
+	
 
 	
 if __name__ == '__main__':
