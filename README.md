@@ -21,3 +21,6 @@ The user can be able to:
 
     $ chmod +x main.py
     $ ./main.py
+
+## Support and contact details
+This is is an open source code therefore ideas and corrections are welcomed by contacting the email sufimariam8@gmail.com .    
