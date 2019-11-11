@@ -50,7 +50,11 @@ def delete_account(Account):
 	'''
 	Account.delete_account()
 
-
+def find_account_bysite(site_name):
+	'''
+	Function to find ana account
+	'''
+	return Account.find_account(site_name)
 
 
 
