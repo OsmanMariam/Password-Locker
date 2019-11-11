@@ -68,7 +68,13 @@ class Account:
             if account.site_name == site_name:
                 return account
 
+    @classmethod
+    def display_accounts(cls):
+        '''
+        Class method to display the list of accounts
+        '''
 
+        return cls.accounts_list
 
 
         
