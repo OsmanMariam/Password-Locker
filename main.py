@@ -50,23 +50,11 @@ def delete_account(Account):
 	'''
 	Account.delete_account()
 
-def find_account_bysite(site_name):
-	'''
-	Function to find ana account
-	'''
-	return Account.find_account(site_name)
 
-def check_exsisting_account(site_name):
-	'''
-	Function to check for an existing account
-	'''
-	return Account.existing_account(site_name)
 
-def display_account():
-	'''
-	Function to display accounts saved by a user
-	'''
-	return Account.display_accounts()
+
+
+
 
 def main():
 	print('Welcome to Password Locker.')
