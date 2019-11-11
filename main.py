@@ -56,7 +56,11 @@ def find_account_bysite(site_name):
 	'''
 	return Account.find_account(site_name)
 
-
+def check_exsisting_account(site_name):
+	'''
+	Function to check for an existing account
+	'''
+	return Account.existing_account(site_name)
 
 
 
