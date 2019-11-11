@@ -8,7 +8,7 @@ This is a a python application taht allows users to store external account detai
 ## Technologies Used
 * Python3.6
 
-## User Stories
+## User Experience
 
 The user can be able to:
 * Create an account and log in.
