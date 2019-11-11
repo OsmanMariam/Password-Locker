@@ -59,7 +59,14 @@ class Account:
         Function to delete passwords
         '''
         Account.accounts_list.remove(self)
-
+    @classmethod
+    def search_account(cls, site_name):
+        '''
+        Method that searches for an existing account.
+        '''
+        for account in cls.accounts_list:
+            if account.site_name == site_name:
+                return account
 
 
 
