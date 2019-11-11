@@ -76,7 +76,14 @@ class Account:
 
         return cls.accounts_list
 
-
+    @classmethod
+    def find_account(cls,site_name):
+        '''
+        Function to find an existing account
+        '''
+        for Account in cls.accounts_list:
+            if Account.site_name== site_name:
+                return Account
         
         
 
