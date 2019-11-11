@@ -62,7 +62,11 @@ def check_exsisting_account(site_name):
 	'''
 	return Account.existing_account(site_name)
 
-
+def display_account():
+	'''
+	Function to display accounts saved by a user
+	'''
+	return Account.display_accounts()
 
 def main():
 	print('Welcome to Password Locker.')
