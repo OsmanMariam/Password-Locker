@@ -108,7 +108,7 @@ def main():
 							if psw_choice == 'ep':
 								password = input('Enter your password: ')
 							elif psw_choice == 'gp':
-								password = user_name[:4]+"6951de"
+								password = user_name[:4]+"6t951hj"
 							save_account(create_account(first_name,site_name,user_name,password))
 							print(' ')
 							print(f'Account Created: Site Name: {site_name} - Account Name: {user_name} - Password: {password}')
