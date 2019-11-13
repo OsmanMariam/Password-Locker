@@ -82,7 +82,7 @@ def main():
 			last_name = input('Enter your last name')
 			password = input('Enter your password')
 			save_user(create_user(first_name,last_name,password))
-			print(f'New Account Created for: {first_name} {last_name} using password: {password}')
+			print(f'New Account for: {first_name} {last_name} using password: {password}')
 
 		elif short_code == 'li':
 			print('To login, enter your account details:')
@@ -90,7 +90,7 @@ def main():
 			password = input('Enter your password' )
 			# user_exists = verify_user(user_name,password)
 			if verify_user(user_name,password):
-				print(f'Welcome {user_name}. Please choose an option to continue.')
+				print(f'Welcome {user_name}. Please choose an option.')
 				while True:
 					print('\n ca-Create an Account \n da-Display Accounts \n dlt- Delete Account \n ex-Exit' )
 					short_code = input('Enter a choice: ')
@@ -103,7 +103,7 @@ def main():
 						site_name = input('Enter the site\'s name- ')
 						user_name = input('Enter your user_name ')
 						while True:
-							print('Please choose an option for entering a password: \n ep-enter existing password \n gp-generate a password \n ex-exit')
+							print('Choose an option for a password: \n ep-enter existing password \n gp-generate a password \n ex-exit')
 							psw_choice = input('Enter an option: ')
 							if psw_choice == 'ep':
 								password = input('Enter your password: ')
@@ -120,7 +120,7 @@ def main():
 							for account in display_account():
 								print(f'Site Name: {account.site_name} - Account Name: {account.user_name} - Password: {account.password}')	
 						else:
-							print("You don't have any accounts saved yet")
+							print("You don't have any accounts")
 
 
 					elif short_code=="dlt":
@@ -137,16 +137,16 @@ def main():
 					
 					
 					else:
-						print('Oops! Wrong option entered. Try again.')
+						print('Please try again.')
 
 			else: 
 				print(' ')
-				print('Oops! Wrong details entered. Try again or Create an Account.')		
+				print('Please try again')		
 		
 		else:
 			
 			
-			print('Oops! Wrong option entered. Try again.')
+			print('Please try again.')
 				
 
 
